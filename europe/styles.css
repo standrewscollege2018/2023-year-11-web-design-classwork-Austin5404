@@ -1,0 +1,35 @@
+body{
+    background-size: cover;
+    background-image: linear-gradient(rgba(254, 188, 188, 0.366),rgba(255, 255, 205, 0.676), rgba(255, 255, 255, 0.653));
+}
+
+h1{
+    font-family: Cherry Bomb One;
+}
+
+h2{
+    font-family: Cherry Bomb One;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr))
+}
+
+.card {
+    
+    margin: 10px;
+	border: 1px solid rgb(12, 34, 56);
+	border-radius: 30px;
+	padding: 0px;
+    overflow: hidden;
+}
+
+.card p,h2 {
+    padding: 10px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}

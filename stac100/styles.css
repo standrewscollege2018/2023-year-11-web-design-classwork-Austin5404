@@ -1,0 +1,46 @@
+.topimg img{
+    text-align: center;
+    max-width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+}
+
+a:link { 
+    font-style: italic;
+    text-decoration: none; 
+    color: black;
+}
+
+.outside {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+@media only screen and (max-width: 800px) {
+    .outside {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+.box_one img{
+    max-width: 100%;
+}
+
+.box_one {
+    margin-top: 100px;
+}
+
+.box_two {
+    padding: 20%;
+}
+
+
